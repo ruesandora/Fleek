@@ -59,7 +59,17 @@ source ~/.cargo/env
 * Yüklemesi biraz uzun sürebileceği için `sccache` ve `protobufer` neymiş araştırın.
 
 ```
+sccache, C++ projelerinin derleme sürelerini hızlandırmak için tasarlandı. Bunu yapmak için, derleyici çağrılarının sonuçlarını önbellekler ve gelecekteki derlemelerde aynı çağrılar yapıldığında önbellekten yararlanır. Bu sayede, aynı kodun birden fazla kez derlenmesi gerektiğinde derleme süresini azaltır. Örneğin, sürekli entegrasyon sunucularında sık sık aynı kodun derlenmesi gerektiğinde sccache çok yararlı olabilir. Ayrıca, çok sayıda kaynak dosyası olan veya yavaş bir derleme ortamı olan projeler için de faydalı olabilir.
+
+
 cargo install sccache
+Protocol Buffers (Protobuf) Google tarafından geliştirilen dil ve platform bağımsız bir veri serileştirme biçimidir. Veri yapılarını tanımlamak ve veriyi etkin ve ayrıştırılması kolay bir biçimde serileştirme ve serileştirilmiş veriyi ayrıştırma kurallarını tanımlamak için kullanılır.
+
+Protobuf, genellikle ağ üzerinden veri iletmek veya bir dosya veya veritabanında veri saklamak için kullanılır. Farklı programlama dilleri veya işletim sistemleri çalıştıran sistemler veya cihazlar arasında veri iletmek için özellikle yararlıdır.
+
+Protobuf'un önemli avantajlarından biri, veri yapılarını net ve kısa bir şekilde tanımlamasıdır. Bu, veriyle çalışmayı ve veriyi anlamayı kolaylaştırır, özellikle verinin farklı sistemler veya cihazlar arasında paylaşılması gerekiyorsa. Protobuf ayrıca daha küçük mesaj boyutları ve daha hızlı serileştirme ve serileştirilmiş veriyi ayrıştırma zamanları gibi performans avantajlarına da sahiptir.
+
+Genel olarak, Protobuf, çeşitli bağlamlarda veriyi serileştirme ve iletmek için güçlü ve etkin bir araçtır.
 ```
 ```
 sudo apt-get install protobuf-compiler
