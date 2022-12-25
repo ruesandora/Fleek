@@ -1,6 +1,5 @@
-## Fleek Network
-
-![image](https://user-images.githubusercontent.com/101149671/209467823-66abbf5f-6b4c-41a2-a5b2-5a18741ce612.png)
+## <h1 align="center">Fleek Network</h1>
+![image](https://user-images.githubusercontent.com/101149671/209468276-05345f01-8643-4a57-8109-77d24ba8f622.png)
 
 
 ## Notlar ve okunması gerekenler:
