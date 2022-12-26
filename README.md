@@ -17,7 +17,7 @@
 
 * Boşta olan sunucunuz bu donanıma sahip olmasa bile kurulum yapın.
 * Yüksek ihtimal hata alınacak durumlar olabilir, ama çözülür.
-* RAM için yer açmak isterseniz: [Link](https://github.com/ruesandora/teritori-testnet)
+* RAM için yer açmak isterseniz: [Link](https://github.com/ruesandora/swap-space/blob/main/README.md)
 ```
 4 CPU 
 4 RAM
