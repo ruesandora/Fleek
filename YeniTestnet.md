@@ -41,6 +41,7 @@ rustup update
 # Script ile kuruyoruz aşamalar çok uzun sürebilir, sunucu performansınıza bağlı.
 curl https://get.fleek.network | bash
 # Yes/No sorularına 2 kez Yes yazıyoruz.
+# Kurulum bitince ENTER diyelim.
 
 # Servisi başlatalım. Tek Tek girin
 systemctl start lightning.service
