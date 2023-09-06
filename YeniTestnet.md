@@ -13,9 +13,10 @@
 
 <h1 align="center"> Donanım </h1>
 
+> Kendim kurduğum donanım, [Hetzner](https://hetzner.cloud/?ref=gIFAhUnYYjD3) kullandım.
+
 ```console
 # Ubuntu 22.04 şart. 
-# Kendim kurduğum donanım:
 4 CPU 8 RAM
 ```
 
