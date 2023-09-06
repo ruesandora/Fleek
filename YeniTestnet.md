@@ -46,8 +46,8 @@ systemctl restart lightning.service
 
 ```console
 # cargoyu yükleyelim
-sudo apt install cargo
-cd fleek-network/lightning/target#
+sudo apt install cargo -y
+cd fleek-network/lightning/target
 # Bu key oluşumu uzun sürer
 cargo run -r -- keys generate
 # Show dediğinizde ki bilgileri kaydedin
