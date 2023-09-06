@@ -1,5 +1,7 @@
 <h1 align="center">Fleek Network</h1>
 
+> YeniTestnete katılmak istiyorsan [buraya](https://github.com/ruesandora/Fleek/blob/main/YeniTestnet.md) git.
+
 
 > Hocam Fleek testneti ne kadar sürecek? - Cevabı [burada.](https://blog.fleek.network/post/fleek-network-testnet-phase0/)
 
