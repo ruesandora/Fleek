@@ -1,7 +1,5 @@
 <h1 align="center">Fleek Network</h1>
 
->
-
 
 > Hocam Fleek testneti ne kadar sürecek? - Cevabı [burada.](https://blog.fleek.network/post/fleek-network-testnet-phase0/)
 
@@ -14,6 +12,8 @@
 <h1 align="center"> Donanım </h1>
 
 > Kendim kurduğum donanım, [Hetzner](https://hetzner.cloud/?ref=gIFAhUnYYjD3) kullandım.
+
+> Sunucu şifrenizi unutmayın, Fleek'ten kaynaklanan bir bugdan ötürü `qemu-guest` siliniyor ve şifre yenileyemiyorsunuz.
 
 ```console
 # Ubuntu 22.04 şart. 
@@ -57,6 +57,7 @@ sudo apt install cargo -y
 cd fleek-network/lightning/target
 # Bu key oluşumu uzun sürer
 cargo run -r -- keys generate
+# Kodun sonunda hata verebilir, show komutunu kullanın.
 # Show dediğinizde ki bilgileri kaydedin
 cargo run -r -- keys show
 
