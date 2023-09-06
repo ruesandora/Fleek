@@ -44,9 +44,9 @@ curl https://get.fleek.network | bash
 # Kurulum bitince ENTER diyelim.
 
 # Servisi başlatalım. Tek Tek girin
-systemctl start lightning.service
-systemctl stop lightning.service
-systemctl restart lightning.service
+sudo systemctl start lightning.service
+sudo systemctl stop lightning.service
+sudo systemctl restart lightning.service
 # Tavsiyem bu komutları iki tur giriniz.
 ```
 <h1 align="center"> Node'un seçilmesi için gerekli işlemler </h1>
