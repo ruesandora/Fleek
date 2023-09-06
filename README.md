@@ -1,4 +1,7 @@
 ## <h1 align="center">Fleek Network</h1>
+
+ > YeniTestnete katılmak istiyorsan [buraya](https://github.com/ruesandora/Fleek/blob/main/YeniTestnet.md) git.
+
 ![image](https://user-images.githubusercontent.com/101149671/209468276-05345f01-8643-4a57-8109-77d24ba8f622.png)
 
 
