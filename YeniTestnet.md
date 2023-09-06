@@ -7,6 +7,8 @@
 
 > Hocam ödüllü mü? - Cevabı [burada.](https://blog.fleek.network/post/fleek-network-testnet-plans/)
 
+> Arkadaşlar ricamdır şunla şu yan yana kurulurmu sorusunu artık sormayın.
+
 > Topluluk kanalları: [Duyurular](https://t.me/RuesAnnouncement) - [Sohbetler](https://t.me/RuesChat) - [Discord](https://discord.gg/V2rX68cy)
 
 <h1 align="center"> Donanım </h1>
