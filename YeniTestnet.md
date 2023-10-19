@@ -20,6 +20,8 @@
 4 CPU 8 RAM
 ```
 
+#
+
 > user ekleyin
 ```console
 # sinanEngin yazan yerleri değişin.
