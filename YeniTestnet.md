@@ -20,6 +20,15 @@
 4 CPU 8 RAM
 ```
 
+> user ekleyin
+```console
+# sinanEngin yazan yerleri değişin.
+adduser sinanEngin
+usermod -aG sudo sinanEngin
+su sinanEngin
+cd /home/sinanEngin
+```
+
 <h1 align="center"> Kurulum </h1>
 
 ```console
@@ -40,33 +49,26 @@ rustup update
 ```console
 # Script ile kuruyoruz aşamalar çok uzun sürebilir, sunucu performansınıza bağlı.
 curl https://get.fleek.network | bash
-# Yes/No sorularına 2 kez Yes yazıyoruz.
-# Kurulum bitince ENTER diyelim.
+# Yes/No sorularına yes diyoruz
 
+# bize kurulum tamamlanınca Node Public Key ve Consensus Public Key vericek kaydedin.
+```
+
+> Bu esnada [buradan](https://faucet.testnet.fleek.network/) token alın fleeke cüzdan açıp
+
+```console
 # Servisi başlatalım. Tek Tek girin
 sudo systemctl start lightning.service
 sudo systemctl stop lightning.service
 sudo systemctl restart lightning.service
-# Tavsiyem bu komutları iki tur giriniz.
-```
-<h1 align="center"> Node'un seçilmesi için gerekli işlemler </h1>
-
-```console
-# cargoyu yükleyelim
-sudo apt install cargo -y
-cd fleek-network/lightning/target
-# Bu key oluşumu uzun sürer
-cargo run -r -- keys generate
-# Kodun sonunda hata verebilir, show komutunu kullanın.
-# Show dediğinizde ki bilgileri kaydedin
-cargo run -r -- keys show
-
-# Discordda, #access-form kanalına gidiyoruz, become node operator diyoruz.
-# Daha sonra IP ve show dediğimizde ki bilgileri buraya girip ticket oluşturuyoruz.
 ```
 
-> Seçilirseniz görselde ki gibi bir mesaj alacaksınız:
+> Mint ettiğiniz yerden bilgileri girip işlemi tamamlayın.
 
-![image](https://github.com/ruesandora/Fleek-Network/assets/101149671/6bfe7302-c3ca-49e2-9c1b-555f61e67760)
+> kontrol komutu: `curl -sS https://get.fleek.network/healthcheck | bash`
+
+![image](https://github.com/ruesandora/Fleek/assets/101149671/50a26d0c-d44f-4c61-8454-1e19d5f1890b)
+
+
 
 
