@@ -67,7 +67,8 @@ sudo systemctl restart lightning.service
 
 > kontrol komutu: `curl -sS https://get.fleek.network/healthcheck | bash`
 
-![image](https://github.com/ruesandora/Fleek/assets/101149671/50a26d0c-d44f-4c61-8454-1e19d5f1890b)
+![image](https://github.com/ruesandora/Fleek/assets/101149671/c042eef0-f50e-42b3-88e0-2845bf7201f0)
+
 
 
 
