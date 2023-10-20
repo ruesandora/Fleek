@@ -37,6 +37,7 @@ cd /home/sinanEngin
 # Güncellemelerimiz
 sudo apt update && sudo apt upgrade -y
 
+sudo swapoff -a
 sudo fallocate -l 10240M /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
